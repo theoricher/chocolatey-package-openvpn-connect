@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-[[AutomaticPackageNotesInstaller]]
+
 $packageName= 'openvpnconnect'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 #$fileLocation = Join-Path $toolsDir 'NAME_OF_EMBEDDED_INSTALLER_FILE'
@@ -16,7 +16,7 @@ $packageArgs = @{
   softwareName  = 'OpenVPN Connect'
 
   checksum      = '16ddae747917395ec45a3578ab38eee9d69a72827cd35b04dcd8e15f75ef2446'
-  checksumType  = 'sha256' #default is md5, can also be sha1, sha256 or sha512
+  checksumType  = 'sha256'
   checksum64    = '6d34dcc39b09e2059d773dad0092b0cace80726e887fe1905e4a5cb92c521012'
   checksumType64= 'sha256'
 
