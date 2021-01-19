@@ -13,7 +13,7 @@ $packageArgs = @{
   url64bit      = 'https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.2.2.1455_signed.msi'
   #file         = $fileLocation
 
-  softwareName  = '[[PackageName]]*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
+  softwareName  = 'OpenVPN Connect'
 
   checksum      = '16ddae747917395ec45a3578ab38eee9d69a72827cd35b04dcd8e15f75ef2446'
   checksumType  = 'sha256' #default is md5, can also be sha1, sha256 or sha512
