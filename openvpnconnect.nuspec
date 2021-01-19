@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>openvpnconnect</id>
+    <version>3.2.2</version>
+    <packageSourceUrl>https://github.com/theoricher/chocolatey-package-openvpn-connect</packageSourceUrl>
+    <owners>Théo</owners>
+    <title>OpenVPN Connect</title>
+    <authors>OpenVPN Technologies, Inc</authors>
+    <projectUrl>https://openvpn.net/download-open-vpn/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/theoricher/chocolatey-package-openvpn-connect/master/icon.png</iconUrl>
+    <copyright>OpenVPN Technologies, Inc</copyright>
+    <licenseUrl>https://openvpn.net/license/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <projectSourceUrl>https://github.com/OpenVPN/openvpn</projectSourceUrl>
+    <docsUrl>https://openvpn.net/cloud-docs-category/connect-client/</docsUrl>
+    <tags>openvpnconnect openvpn connect tunnel ssl admin</tags>
+    <summary>OpenVPN Connect is a client for OpenVPN server solution</summary>
+    <description>OpenVPN Connect is a client for OpenVPN server solution</description>
+    <releaseNotes>https://openvpn.net/vpn-server-resources/openvpn-connect-for-windows-change-log/</releaseNotes>
+    <dependencies>
+        <dependency id="chocolatey" version="0.10.8" />
+        <dependency id="gpg4win-vanilla" version="2.3.4" />
+    </dependencies>
+    <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->
+
+    <!--<provides>NOT YET IMPLEMENTED</provides>-->
+    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
+    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
