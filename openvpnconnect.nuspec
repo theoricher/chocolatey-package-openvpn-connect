@@ -11,7 +11,7 @@
     <title>OpenVPN Connect</title>
     <authors>OpenVPN Technologies, Inc</authors>
     <projectUrl>https://openvpn.net/download-open-vpn/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/theoricher/chocolatey-package-openvpn-connect/master/icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/theoricher/chocolatey-package-openvpn-connect/master/icon.png</iconUrl>
     <copyright>OpenVPN Technologies, Inc</copyright>
     <licenseUrl>https://openvpn.net/license/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
