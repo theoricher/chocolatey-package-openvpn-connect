@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek
+     uppercase omega letter enclosed in quotation marks, you should use an
+     editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>openvpnconnect</id>
     <version>3.2.2</version>
@@ -11,7 +14,7 @@
     <iconUrl>https://cdn.rawgit.com/theoricher/chocolatey-package-openvpn-connect/master/icon.png</iconUrl>
     <copyright>OpenVPN Technologies, Inc</copyright>
     <licenseUrl>https://openvpn.net/license/</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/OpenVPN/openvpn</projectSourceUrl>
     <docsUrl>https://openvpn.net/cloud-docs-category/connect-client/</docsUrl>
     <tags>openvpnconnect openvpn connect tunnel ssl admin</tags>
